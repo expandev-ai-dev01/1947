@@ -8,3 +8,5 @@
 
 export { errorMiddleware } from './error';
 export { notFoundMiddleware } from './notFound';
+export { authMiddleware, type AuthRequest } from './auth';
+export { rateLimitMiddleware } from './rateLimit/rateLimitMiddleware';

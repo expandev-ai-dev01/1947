@@ -27,6 +27,8 @@ export const config = {
   },
   security: {
     bcryptRounds: parseInt(process.env.BCRYPT_ROUNDS || '10'),
+    jwtSecret: process.env.JWT_SECRET || 'minecraft-tips-secret-key-change-in-prod',
+    jwtExpiresIn: '24h',
   },
   cache: {
     ttl: parseInt(process.env.CACHE_TTL || '3600'),

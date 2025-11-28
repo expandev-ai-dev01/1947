@@ -18,3 +18,8 @@ export {
   type InitExampleLimitsType,
   type InitExamplePriority,
 } from './initExample';
+
+/**
+ * Minecraft constants
+ */
+export * from './minecraft';

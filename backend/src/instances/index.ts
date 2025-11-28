@@ -10,3 +10,8 @@
  * InitExample instances
  */
 export { initExampleStore, type InitExampleRecord } from './initExample';
+
+/**
+ * Minecraft instances
+ */
+export * from './minecraft';
